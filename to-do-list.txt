@@ -1,0 +1,1 @@
+Django ile yapaılacak to-do-list
