@@ -1,1 +1,21 @@
-Django ile yapaılacak to-do-list
+ Day 1 – Django To-Do App Kurulum Adımları
+
+1️⃣ mkdir django-todo-react → django-todo-react adlı yeni bir proje klasörü oluşturur.
+
+2️⃣ cd django-todo-react → Yeni oluşturulan klasöre girer.
+
+3️⃣ pip install pipenv → Python paket yönetimi için pipenv aracını yükler.
+
+4️⃣ pipenv shell → Sanal ortamı (virtual environment) başlatır.
+
+5️⃣ pipenv install django → Django'yu sanal ortama yükler.
+
+6️⃣ django-admin startproject backend → backend adlı yeni bir Django projesi oluşturur.
+
+7️⃣ cd backend → Django proje klasörüne girer.
+
+8️⃣ python manage.py startapp todo → todo adında bir Django uygulaması oluşturur.
+
+9️⃣ python manage.py migrate → Varsayılan veritabanı tablolarını oluşturur (Django’nun temel yapı taşları).
+
+🔟 python manage.py runserver → Django geliştirme sunucusunu başlatır ve projeyi çalıştırır
